@@ -1,7 +1,7 @@
 import json
 import os
 from typing import List, Dict, Any
-from backend.config import PROCESSED_DIR
+from config import PROCESSED_DIR
 
 class MetadataStore:
     def __init__(self):
@@ -41,7 +41,7 @@ class MetadataStore:
                 os.remove(path)
         
         # Delete Static Content
-        from backend.config import STATIC_DIR, PDF_DIR
+        from config import STATIC_DIR, PDF_DIR
         
         # Delete Scanned Pages Dir
         pages_dir = os.path.join(STATIC_DIR, "pages", doc_id)
@@ -63,7 +63,7 @@ class MetadataStore:
             os.makedirs(PROCESSED_DIR)
         
         # Clear Static Dirs
-        from backend.config import STATIC_DIR, PDF_DIR, IMAGE_DIR
+        from config import STATIC_DIR, PDF_DIR, IMAGE_DIR
         
         # Pages
         pages_root = os.path.join(STATIC_DIR, "pages")
