@@ -2,15 +2,12 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install dependencies
+# Copy requirements from root
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy frontend code
 COPY frontend /app/frontend
-
-# Copy Images folder (IMPORTANT)
-COPY Images /app/Images
 
 WORKDIR /app/frontend
 
