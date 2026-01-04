@@ -10,6 +10,40 @@
 
 ---
 
+## 👥 Meet the Team
+
+This project was designed and developed by students from **Nutan College of Engineering and Research, Talegaon Dhabade, Pune** under **Intel Unnati Industrail Training 2025 Programme**.
+Feel free to connect with us and explore our work!
+
+### 👤 Mithilesh Kolhapurkar  
+
+[![Email](https://img.shields.io/badge/Email-m.kolhapurkar3529%40gmail.com-red?style=flat&logo=gmail)](mailto:m.kolhapurkar3529@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mithilesh%20Kolhapurkar-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mithilesh-kolhapurkar-258001214)
+
+---
+
+### 👤 Ankita Patil  
+
+[![Email](https://img.shields.io/badge/Email-95ankita.s.patil%40gmail.com-red?style=flat&logo=gmail)](mailto:95ankita.s.patil@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankita%20Patil-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ankita-patil-10b0732ab/)
+
+---
+
+### 👤 Vedant Thorat  
+
+[![Email](https://img.shields.io/badge/Email-vedantthorat019%40gmail.com-red?style=flat&logo=gmail)](mailto:vedantthorat019@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vedant%20Thorat-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/vedant-thorat-156b8628b/)
+
+---
+
+## 🙏 Special Thanks
+
+A huge thank you to our mentor for their guidance, insights, and continuous support throughout the development of this project.
+
+**Prof. Priyanka Vyas**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Priyanka%20Vyas-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/priyankavyas6/)
+
+---
 ## 📸 Snapshots
 
 | Landing Page | Dashboard & Chat |
@@ -81,34 +115,36 @@ The **Intel Enterprise Document Analyzer** is designed to solve the "Last Mile" 
    Copy code
    uvicorn backend.main:app --host 127.0.0.1 --port 8000
    Frontend (Streamlit):
-
+   ```
    ```bash
    Copy code
    streamlit run frontend/app.py
-
+   ```
 ## 📂 Data Directory Structure (Auto / Manual)
 
 The backend expects the following structure:
 
-data/
-├── processed/
-├── uploads/
-├── vectordb/
-└── static/
-    ├── images/
-    ├── pages/
-    └── pdfs/
-
+   ```
+   data/
+   ├── processed/
+   ├── uploads/
+   ├── vectordb/
+   └── static/
+       ├── images/
+       ├── pages/
+       └── pdfs/
+   ```
 
 Create manually if needed:
 
-mkdir -p data/processed \
-         data/static/images \
-         data/static/pages \
-         data/static/pdfs \
-         data/uploads \
-         data/vectordb
-
+   ```
+   mkdir -p data/processed \
+            data/static/images \
+            data/static/pages \
+            data/static/pdfs \
+            data/uploads \
+            data/vectordb
+   ```
 ---
 
 ## 🧠 Architectural Highlights
