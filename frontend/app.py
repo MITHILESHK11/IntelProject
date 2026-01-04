@@ -4,10 +4,11 @@ import pandas as pd
 import json
 import time
 import base64
+import os
 from datetime import datetime
 
 # --- CONFIGURATION ---
-API_URL = "http://127.0.0.1:8000"
+API_URL = "http://backend:8000"
 st.set_page_config(
     page_title="Intel Knowledge Nexus",
     page_icon="🤖",
@@ -33,7 +34,12 @@ def get_base64_of_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-bg_img_path = r"d:\DELL\Documents\Intel\Intel Project - Enterprise Document Analyzer\Intel Project - Enterprise Document Analyzer\Images\BG.png"
+bg_img_path = os.path.join(
+    os.path.dirname(__file__),
+    "Images",
+    "BG.png"
+)
+
 try:
     bin_str = get_base64_of_bin_file(bg_img_path)
     bg_css = f"""
