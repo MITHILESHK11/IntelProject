@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+python-multipart
+pymupdf
+chromadb
+sentence-transformers
+pillow
+numpy
+pandas
+requests
+scikit-learn
+docling
+google-generativeai
