@@ -2,7 +2,7 @@ import fitz
 import os
 from PIL import Image
 import io
-from backend.config import IMAGE_DIR, GOOGLE_API_KEY
+from config import IMAGE_DIR, GOOGLE_API_KEY
 
 class VisionProcessor:
     def __init__(self, gemini_processor=None):
