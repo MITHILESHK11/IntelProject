@@ -42,7 +42,7 @@ The **Intel Enterprise Document Analyzer** is designed to solve the "Last Mile" 
 
 ### Prerequisites
 - **Python 3.9+**
-- **Tesseract OCR** (Installed and in system PATH)
+- **Docling OCR** 
 - **Google Cloud API Key** (for Gemini Vision)
 
 ### Installation
@@ -82,13 +82,6 @@ The **Intel Enterprise Document Analyzer** is designed to solve the "Last Mile" 
 
 ---
 
-## 🛠️ utility: Screenshot Capture
-To generate the images for this README, ensure the app is running and execute:
-```bash
-pip install playwright
-playwright install
-python util/capture_screenshots.py
-```
 
 ## 📜 License
 MIT
