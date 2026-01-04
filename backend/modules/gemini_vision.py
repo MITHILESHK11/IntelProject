@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 import time
 from typing import Dict, Any, List
-from backend.config import GOOGLE_API_KEY, GEMINI_MODEL
+from config import GOOGLE_API_KEY, GEMINI_MODEL
 
 class GeminiProcessor:
     def __init__(self, api_key: str = None, model_name: str = None):
