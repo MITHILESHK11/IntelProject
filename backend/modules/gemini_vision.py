@@ -1,4 +1,4 @@
-import google.generativeai as genai
+import google.genai
 import os
 import time
 from typing import Dict, Any, List
