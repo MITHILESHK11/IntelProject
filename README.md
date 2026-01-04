@@ -194,12 +194,3 @@ MIT License
 
 Give it a star ⭐ and feel free to fork or extend it for research, enterprise pilots, or hackathons.
 
----
-
-If you want next, I can:
-- Add **Cloud Run–compatible README section**
-- Add **Architecture diagram embed**
-- Add **Benchmark & performance section**
-- Add **Research / paper-ready abstract**
-
-Just tell me 👍
