@@ -26,7 +26,7 @@
 
 The **Intel Enterprise Document Analyzer** is designed to solve the "Last Mile" problem of document intelligence: extracting structured data from unstructured, messy real-world PDFs. By dynamically switching between **Tesseract OCR** (for speed) and **Google Gemini Vision** (for reasoning), it achieves high accuracy even on handwritten or complex documents.
 
-[**📘 Read the Full User Guide**](docs/USER_GUIDE.md)
+[**📘 Read the Full Architecture**](ARCHITECTURE.md)
 
 ### Key Capabilities
 - **Hybrid Extraction Engine**: Automatically handles Digital vs. Scanned vs. Handwriting.
