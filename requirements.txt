@@ -11,4 +11,5 @@ pandas
 requests
 scikit-learn
 docling
-google-generativeai
+google-genai
+hf_xet
