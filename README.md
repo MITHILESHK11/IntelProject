@@ -14,11 +14,11 @@
 
 | Landing Page | Dashboard & Chat |
 | :---: | :---: |
-| ![Landing](frontend/images/landing_page.png) | ![Dashboard](frontend/images/dashboard.png) |
+| ![Landing](frontend/Images/landing_page.png) | ![Dashboard](frontend/Images/dashboard.png) |
 
 | Inspector | Knowledge Base |
 | :---: | :---: |
-| ![Inspector](frontend/images/inspector.png) | ![Database](frontend/images/database_view.png) |
+| ![Inspector](frontend/Images/inspector.png) | ![Database](frontend/Images/database_view.png) |
 
 ---
 
