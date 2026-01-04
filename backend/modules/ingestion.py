@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 import os
 from typing import Dict, Any, List
-from backend.config import DATA_DIR
+from config import DATA_DIR
 
 class PDFIngestor:
     def __init__(self, file_path: str):
