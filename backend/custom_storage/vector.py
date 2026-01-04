@@ -2,7 +2,7 @@ import chromadb
 from chromadb.config import Settings
 import uuid
 from typing import List, Dict, Any
-from backend.config import VECTOR_DB_DIR, EMBEDDING_MODEL
+from config import VECTOR_DB_DIR, EMBEDDING_MODEL
 
 class VectorStore:
     def __init__(self):
