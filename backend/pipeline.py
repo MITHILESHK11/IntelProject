@@ -1,14 +1,14 @@
 import os
 import fitz
 import shutil
-from backend.config import UPLOAD_DIR, PDF_DIR, GOOGLE_API_KEY, GEMINI_MODEL
-from backend.modules.ingestion import PDFIngestor
-from backend.parsers.docling_parser import DoclingParser
-from backend.modules.chunking import Chunker
-from backend.custom_storage.vector import VectorStore
-from backend.custom_storage.metadata import MetadataStore
-from backend.modules.vision import VisionProcessor
-from backend.modules.gemini_vision import GeminiProcessor
+from config import UPLOAD_DIR, PDF_DIR, GOOGLE_API_KEY, GEMINI_MODEL
+from modules.ingestion import PDFIngestor
+from parsers.docling_parser import DoclingParser
+from modules.chunking import Chunker
+from custom_storage.vector import VectorStore
+from custom_storage.metadata import MetadataStore
+from modules.vision import VisionProcessor
+from modules.gemini_vision import GeminiProcessor
 
 class Pipeline:
     def __init__(self):
