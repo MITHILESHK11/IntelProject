@@ -23,5 +23,5 @@ UPLOAD_DIR = os.path.join(DATA_DIR, "uploads")
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # API Keys
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBq0k3xsFa8ggyD8kSaKkjIRVUMkDPoN_k")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "Gemini_API_Key")
 GEMINI_MODEL = "gemini-2.5-pro"
