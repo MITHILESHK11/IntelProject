@@ -1,10 +1,10 @@
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from backend.pipeline import Pipeline
-from backend.custom_storage.vector import VectorStore
-from backend.custom_storage.metadata import MetadataStore
-from backend.config import DATA_DIR
+from pipeline import Pipeline
+from custom_storage.vector import VectorStore
+from custom_storage.metadata import MetadataStore
+from config import DATA_DIR
 import os
 import fitz
 from fastapi.responses import Response
@@ -190,4 +190,4 @@ async def get_visual_citation(doc_id: str, page: int, bbox_str: str):
         return Response(content=str(e), status_code=500)
 
 if __name__ == "__main__":
-    uvicorn.run("backend.main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
